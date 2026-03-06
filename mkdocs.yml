@@ -1,0 +1,19 @@
+site_name: Auditable Trust Infrastructure
+site_description: Deterministic Governance Framework for Autonomous Systems
+site_author: FoundLab + xAI
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - ATI-000 Motivation: ati-000.md
+  - ATI-001 Core Specification: ati-001.md
+  - ATI-002 Reference Architecture: ati-002.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
